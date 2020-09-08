@@ -17,3 +17,17 @@ router.put("/api/Workouts/:id", (req, res) => {
     .then(dbWorkout => { res.json(dbWorkout); })
     .catch(err => { res.json(err); });
 });
+
+router.post("/api/Workouts", ({ body }, res) => {
+    db.Workout.create(body)
+      .then(dbWorkout => { res.json(dbWorkout); })
+      .catch(err => { res.json(err); });
+  });
+  
+  router.get("/api/Workouts/range", (req, res) => {
+    db.Workout.find({})
+      .then(dbWorkout => { res.json(dbWorkout); })
+      .catch(err => { res.json(err); });
+  });
+  
+  module.exports = router;
