@@ -18,7 +18,22 @@
   Clone the repo then npm install and set up mongDB
 
   ## Usage
-  Enter your usage instructions here.
+  
+    Add exercises to a previous workout plan.
+
+    Add new exercises to a new workout plan.
+
+    View the combined weight of multiple exercises on the `stats` page.
+    
+  ## DEPLOYED VERSION
+  
+  https://radiant-woodland-89838.herokuapp.com/
+  
+  ## DEMO
+  
+  ![fitnesstracker](https://user-images.githubusercontent.com/63941758/92552818-1b118200-f227-11ea-9c76-6a812bdfc04f.png)
+  
+  
 
   ## Contributing
   None
